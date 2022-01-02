@@ -13,7 +13,7 @@ from keras.models import Sequential
 # 442 명의 당뇨병 환자 가각에 대해 10개의 기준 변수, 연령, 성별, 체질량 지수, 평균 혈압 및 6개의 혈청 측정 값
 diabetse = load_diabetes()
 print(diabetse.keys())  # key()함수는 해당 사전형 데이터에 저장된 key 값들을 리스트의 형태로 변환
-print(diabetse.feature_names)   # featur_names라는 key값에는 age, sex, bmi, bp, s 등등으 10가지 기준 변수가 있다.
+print(diabetse.feature_names)   # featur_names라는 key값에는 age, sex, bmi, bp, s1 등등의 10가지 기준 변수가 있다.
 aa=diabetse.data    # 442x10 행렬의 데이터 (행은 환자번호, 열은 기준 변수)
 bb=diabetse.target  # 1년 후 질병 진행에 대한 실제 정량적 측정
 
